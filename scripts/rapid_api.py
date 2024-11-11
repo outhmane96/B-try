@@ -19,7 +19,9 @@ def fetch_and_save_data(endpoint, querystring):
     url = f"{base_url}{endpoint}"
 
     # Define the path for the JSON file
-    file_path = "football_data.json"
+    #file_path = "football_data.json"
+    
+    file_path = "players_data.json"
 
     # Check if the file exists and load existing data
     if os.path.exists(file_path):
@@ -47,4 +49,9 @@ def fetch_and_save_data(endpoint, querystring):
         print(f"Failed to retrieve data from '{endpoint}': {response.status_code}")
 
 # Example usage of the function
-fetch_and_save_data("fixtures", {"league": "39", "season": "2024"})
+
+# fixture id man city vs brighton 1208124
+# man city team id 50
+# haaland player id 1100
+# PL id 39
+fetch_and_save_data("players", {"id":"1100","season":"2024","league":"39"})

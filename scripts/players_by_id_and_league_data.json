@@ -1,0 +1,121 @@
+[
+    {
+        "endpoint": "players",
+        "query": {
+            "id": "1100",
+            "season": "2024",
+            "league": "39"
+        },
+        "response": {
+            "get": "players",
+            "parameters": {
+                "league": "39",
+                "id": "1100",
+                "season": "2024"
+            },
+            "errors": [],
+            "results": 1,
+            "paging": {
+                "current": 1,
+                "total": 1
+            },
+            "response": [
+                {
+                    "player": {
+                        "id": 1100,
+                        "name": "E. Haaland",
+                        "firstname": "Erling",
+                        "lastname": "Braut Haaland",
+                        "age": 24,
+                        "birth": {
+                            "date": "2000-07-21",
+                            "place": "Leeds",
+                            "country": "England"
+                        },
+                        "nationality": "Norway",
+                        "height": "194 cm",
+                        "weight": "88 kg",
+                        "injured": false,
+                        "photo": "https://media.api-sports.io/football/players/1100.png"
+                    },
+                    "statistics": [
+                        {
+                            "team": {
+                                "id": 50,
+                                "name": "Manchester City",
+                                "logo": "https://media.api-sports.io/football/teams/50.png"
+                            },
+                            "league": {
+                                "id": 39,
+                                "name": "Premier League",
+                                "country": "England",
+                                "logo": "https://media.api-sports.io/football/leagues/39.png",
+                                "flag": "https://media.api-sports.io/flags/gb-eng.svg",
+                                "season": 2024
+                            },
+                            "games": {
+                                "appearences": 11,
+                                "lineups": 11,
+                                "minutes": 990,
+                                "number": null,
+                                "position": "Attacker",
+                                "rating": "7.490909",
+                                "captain": false
+                            },
+                            "substitutes": {
+                                "in": 0,
+                                "out": 1,
+                                "bench": 0
+                            },
+                            "shots": {
+                                "total": 47,
+                                "on": 32
+                            },
+                            "goals": {
+                                "total": 12,
+                                "conceded": 0,
+                                "assists": 0,
+                                "saves": null
+                            },
+                            "passes": {
+                                "total": 108,
+                                "key": 5,
+                                "accuracy": null
+                            },
+                            "tackles": {
+                                "total": 2,
+                                "blocks": null,
+                                "interceptions": 1
+                            },
+                            "duels": {
+                                "total": 76,
+                                "won": 27
+                            },
+                            "dribbles": {
+                                "attempts": 13,
+                                "success": 5,
+                                "past": null
+                            },
+                            "fouls": {
+                                "drawn": 6,
+                                "committed": 9
+                            },
+                            "cards": {
+                                "yellow": 2,
+                                "yellowred": 0,
+                                "red": 0
+                            },
+                            "penalty": {
+                                "won": null,
+                                "commited": null,
+                                "scored": 1,
+                                "missed": 0,
+                                "saved": null
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]
