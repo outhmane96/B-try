@@ -3,7 +3,7 @@ import json
 import os
 
 # Define the main function that fetches data from the API and saves it
-def fetch_and_save_data(endpoint, querystring):
+def fetch_and_save_data(endpoint, querystring, output_file):
     """
     Fetch data from the specified API endpoint with the given query parameters,
     and save the response to a JSON file.
@@ -18,14 +18,9 @@ def fetch_and_save_data(endpoint, querystring):
     # Construct the full URL
     url = f"{base_url}{endpoint}"
 
-    # Define the path for the JSON file
-    #file_path = "football_data.json"
-    
-    file_path = "players_data.json"
-
     # Check if the file exists and load existing data
-    if os.path.exists(file_path):
-        with open(file_path, "r") as file:
+    if os.path.exists(output_file):
+        with open(output_file, "r") as file:
             data = json.load(file)
     else:
         data = []  # Initialize an empty list if the file doesn't exist
@@ -41,19 +36,36 @@ def fetch_and_save_data(endpoint, querystring):
         })
         
         # Write the updated data back to the file
-        with open(file_path, "w") as file:
+        with open(output_file, "w") as file:
             json.dump(data, file, indent=4)
 
-        print(f"Response from '{endpoint}' saved successfully.")
+        print(f"Response from '{endpoint}' with query {querystring} saved successfully.")
     else:
         print(f"Failed to retrieve data from '{endpoint}': {response.status_code}")
 
-# Example usage of the function
+# Function to process teams and fetch players
+def fetch_players_from_teams(teams_json_path, output_file):
+    """
+    Read team data from a JSON file and fetch player data for each team.
+    """
+    # Load the teams JSON
+    with open(teams_json_path, "r") as file:
+        teams_data = json.load(file)
+    
+    # Iterate over each team in the JSON
 
-# fixture id man city vs brighton 1208124
-# man city team id 50
-# haaland player id 1100
-# PL id 39
-#18941 limit 24
-#strat id 18814 
-fetch_and_save_data("players/squads", {"team":"50"})
+    # Iterate over each team in the JSON
+    for team_entry in teams_data:
+        teams = team_entry["response"]["response"]
+        for team in teams:
+            team_id = team["team"]["id"]  # Extract team ID
+            print(f"Fetching players for Team ID: {team_id}")
+            fetch_and_save_data("players/squads", {"team": str(team_id)}, output_file)
+            
+# Define paths
+teams_json_path = "teams.json"  # Path to the teams JSON file
+output_file = "players.json"  # Path to save player data
+
+
+# Fetch players for all teams
+fetch_players_from_teams(teams_json_path, output_file)
