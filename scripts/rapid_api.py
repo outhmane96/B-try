@@ -54,6 +54,5 @@ def fetch_and_save_data(endpoint, querystring):
 # man city team id 50
 # haaland player id 1100
 # PL id 39
-#18941 limit 24
-#strat id 18814 
-fetch_and_save_data("players/squads", {"team":"50"})
+#strat id 158698 
+fetch_and_save_data("fixtures/statistics", {"fixture":"1208124"})
