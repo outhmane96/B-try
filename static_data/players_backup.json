@@ -1,7 +1,7 @@
 [
     {
         "id": 50132,
-        "name": "A. Bayindir",
+        "name": "A. Bay\u0131nd\u0131r",
         "age": 26,
         "number": 1,
         "position": "Goalkeeper",
@@ -25,7 +25,7 @@
     },
     {
         "id": 889,
-        "name": "V. Lindelöf",
+        "name": "V. Lindel\u00f6f",
         "age": 30,
         "number": 2,
         "position": "Defender",
@@ -57,7 +57,7 @@
     },
     {
         "id": 2467,
-        "name": "Lisandro Martínez",
+        "name": "Lisandro Mart\u00ednez",
         "age": 26,
         "number": 6,
         "position": "Defender",
@@ -201,7 +201,7 @@
     },
     {
         "id": 288006,
-        "name": "R. Højlund",
+        "name": "R. H\u00f8jlund",
         "age": 21,
         "number": 9,
         "position": "Attacker",
@@ -257,7 +257,7 @@
     },
     {
         "id": 18886,
-        "name": "M. Dúbravka",
+        "name": "M. D\u00fabravka",
         "age": 35,
         "number": 1,
         "position": "Goalkeeper",
@@ -313,7 +313,7 @@
     },
     {
         "id": 2806,
-        "name": "F. Schär",
+        "name": "F. Sch\u00e4r",
         "age": 33,
         "number": 5,
         "position": "Defender",
@@ -409,7 +409,7 @@
     },
     {
         "id": 2507,
-        "name": "M. Almirón",
+        "name": "M. Almir\u00f3n",
         "age": 30,
         "number": 24,
         "position": "Midfielder",
@@ -433,7 +433,7 @@
     },
     {
         "id": 10135,
-        "name": "Bruno Guimarães",
+        "name": "Bruno Guimar\u00e3es",
         "age": 27,
         "number": 39,
         "position": "Midfielder",
@@ -689,7 +689,7 @@
     },
     {
         "id": 47499,
-        "name": "E. Ünal",
+        "name": "E. \u00dcnal",
         "age": 27,
         "number": 26,
         "position": "Attacker",
@@ -825,7 +825,7 @@
     },
     {
         "id": 2823,
-        "name": "S. Lukić",
+        "name": "S. Luki\u0107",
         "age": 28,
         "number": 20,
         "position": "Midfielder",
@@ -857,7 +857,7 @@
     },
     {
         "id": 2887,
-        "name": "R. Jiménez",
+        "name": "R. Jim\u00e9nez",
         "age": 33,
         "number": 7,
         "position": "Attacker",
@@ -873,7 +873,7 @@
     },
     {
         "id": 18753,
-        "name": "Adama Traoré",
+        "name": "Adama Traor\u00e9",
         "age": 28,
         "number": 11,
         "position": "Attacker",
@@ -881,7 +881,7 @@
     },
     {
         "id": 104,
-        "name": "Carlos Vinícius",
+        "name": "Carlos Vin\u00edcius",
         "age": 29,
         "number": 12,
         "position": "Attacker",
@@ -913,7 +913,7 @@
     },
     {
         "id": 1590,
-        "name": "José Sá",
+        "name": "Jos\u00e9 S\u00e1",
         "age": 31,
         "number": 1,
         "position": "Goalkeeper",
@@ -953,7 +953,7 @@
     },
     {
         "id": 21138,
-        "name": "R. Aït-Nouri",
+        "name": "R. A\u00eft-Nouri",
         "age": 23,
         "number": 3,
         "position": "Defender",
@@ -985,7 +985,7 @@
     },
     {
         "id": 130,
-        "name": "Nélson Semedo",
+        "name": "N\u00e9lson Semedo",
         "age": 31,
         "number": 22,
         "position": "Defender",
@@ -1033,7 +1033,7 @@
     },
     {
         "id": 157912,
-        "name": "B. Traoré",
+        "name": "B. Traor\u00e9",
         "age": 23,
         "number": 6,
         "position": "Midfielder",
@@ -1041,7 +1041,7 @@
     },
     {
         "id": 265784,
-        "name": "André",
+        "name": "Andr\u00e9",
         "age": 23,
         "number": 7,
         "position": "Midfielder",
@@ -1049,7 +1049,7 @@
     },
     {
         "id": 195103,
-        "name": "João Gomes",
+        "name": "Jo\u00e3o Gomes",
         "age": 23,
         "number": 8,
         "position": "Midfielder",
@@ -1145,7 +1145,7 @@
     },
     {
         "id": 925,
-        "name": "Gonçalo Guedes",
+        "name": "Gon\u00e7alo Guedes",
         "age": 28,
         "number": 29,
         "position": "Attacker",
@@ -1153,7 +1153,7 @@
     },
     {
         "id": 385726,
-        "name": "E. González",
+        "name": "E. Gonz\u00e1lez",
         "age": 19,
         "number": 30,
         "position": "Attacker",
@@ -1169,7 +1169,7 @@
     },
     {
         "id": 162687,
-        "name": "V. Jaroš",
+        "name": "V. Jaro\u0161",
         "age": 23,
         "number": 56,
         "position": "Goalkeeper",
@@ -1209,7 +1209,7 @@
     },
     {
         "id": 1145,
-        "name": "I. Konaté",
+        "name": "I. Konat\u00e9",
         "age": 25,
         "number": 5,
         "position": "Defender",
@@ -1321,7 +1321,7 @@
     },
     {
         "id": 2489,
-        "name": "L. Díaz",
+        "name": "L. D\u00edaz",
         "age": 27,
         "number": 7,
         "position": "Attacker",
@@ -1329,7 +1329,7 @@
     },
     {
         "id": 51617,
-        "name": "D. Núñez",
+        "name": "D. N\u00fa\u00f1ez",
         "age": 25,
         "number": 9,
         "position": "Attacker",
@@ -1729,7 +1729,7 @@
     },
     {
         "id": 22224,
-        "name": "Gabriel Magalhães",
+        "name": "Gabriel Magalh\u00e3es",
         "age": 27,
         "number": 6,
         "position": "Defender",
@@ -1825,7 +1825,7 @@
     },
     {
         "id": 37127,
-        "name": "M. Ødegaard",
+        "name": "M. \u00d8degaard",
         "age": 26,
         "number": 8,
         "position": "Midfielder",
@@ -1953,7 +1953,7 @@
     },
     {
         "id": 18755,
-        "name": "João Virgínia",
+        "name": "Jo\u00e3o Virg\u00ednia",
         "age": 25,
         "number": 12,
         "position": "Goalkeeper",
@@ -1961,7 +1961,7 @@
     },
     {
         "id": 18858,
-        "name": "A. Begović",
+        "name": "A. Begovi\u0107",
         "age": 37,
         "number": 31,
         "position": "Goalkeeper",
@@ -2057,7 +2057,7 @@
     },
     {
         "id": 18805,
-        "name": "A. Doucouré",
+        "name": "A. Doucour\u00e9",
         "age": 31,
         "number": 16,
         "position": "Midfielder",
@@ -2073,7 +2073,7 @@
     },
     {
         "id": 15884,
-        "name": "J. Lindstrøm",
+        "name": "J. Lindstr\u00f8m",
         "age": 24,
         "number": 29,
         "position": "Midfielder",
@@ -2329,7 +2329,7 @@
     },
     {
         "id": 22233,
-        "name": "B. Soumaré",
+        "name": "B. Soumar\u00e9",
         "age": 25,
         "number": 24,
         "position": "Midfielder",
@@ -2417,7 +2417,7 @@
     },
     {
         "id": 1135,
-        "name": "O. Édouard",
+        "name": "O. \u00c9douard",
         "age": 26,
         "number": 29,
         "position": "Attacker",
@@ -2457,7 +2457,7 @@
     },
     {
         "id": 739,
-        "name": "Reguilón",
+        "name": "Reguil\u00f3n",
         "age": 28,
         "number": 3,
         "position": "Defender",
@@ -2465,7 +2465,7 @@
     },
     {
         "id": 162498,
-        "name": "R. Drăgușin",
+        "name": "R. Dr\u0103gu\u0219in",
         "age": 22,
         "number": 6,
         "position": "Defender",
@@ -2681,7 +2681,7 @@
     },
     {
         "id": 2997,
-        "name": "Ł. Fabiański",
+        "name": "\u0141. Fabia\u0144ski",
         "age": 39,
         "number": 1,
         "position": "Goalkeeper",
@@ -2785,7 +2785,7 @@
     },
     {
         "id": 1646,
-        "name": "Lucas Paquetá",
+        "name": "Lucas Paquet\u00e1",
         "age": 27,
         "number": 10,
         "position": "Midfielder",
@@ -2801,7 +2801,7 @@
     },
     {
         "id": 2869,
-        "name": "E. Álvarez",
+        "name": "E. \u00c1lvarez",
         "age": 27,
         "number": 19,
         "position": "Midfielder",
@@ -2809,7 +2809,7 @@
     },
     {
         "id": 2476,
-        "name": "G. Rodríguez",
+        "name": "G. Rodr\u00edguez",
         "age": 30,
         "number": 24,
         "position": "Midfielder",
@@ -2817,7 +2817,7 @@
     },
     {
         "id": 1243,
-        "name": "T. Souček",
+        "name": "T. Sou\u010dek",
         "age": 29,
         "number": 28,
         "position": "Midfielder",
@@ -2849,7 +2849,7 @@
     },
     {
         "id": 25391,
-        "name": "N. Füllkrug",
+        "name": "N. F\u00fcllkrug",
         "age": 31,
         "number": 11,
         "position": "Attacker",
@@ -2881,7 +2881,7 @@
     },
     {
         "id": 18959,
-        "name": "Robert Sánchez",
+        "name": "Robert S\u00e1nchez",
         "age": 27,
         "number": 1,
         "position": "Goalkeeper",
@@ -2889,7 +2889,7 @@
     },
     {
         "id": 286616,
-        "name": "F. Jörgensen",
+        "name": "F. J\u00f6rgensen",
         "age": 22,
         "number": 12,
         "position": "Goalkeeper",
@@ -2905,7 +2905,7 @@
     },
     {
         "id": 152955,
-        "name": "L. Bergström",
+        "name": "L. Bergstr\u00f6m",
         "age": 22,
         "number": 47,
         "position": "Goalkeeper",
@@ -3001,7 +3001,7 @@
     },
     {
         "id": 5996,
-        "name": "E. Fernández",
+        "name": "E. Fern\u00e1ndez",
         "age": 23,
         "number": 8,
         "position": "Midfielder",
@@ -3105,7 +3105,7 @@
     },
     {
         "id": 583,
-        "name": "João Félix",
+        "name": "Jo\u00e3o F\u00e9lix",
         "age": 25,
         "number": 14,
         "position": "Attacker",
@@ -3209,7 +3209,7 @@
     },
     {
         "id": 567,
-        "name": "Rúben Dias",
+        "name": "R\u00faben Dias",
         "age": 27,
         "number": 3,
         "position": "Defender",
@@ -3225,7 +3225,7 @@
     },
     {
         "id": 18861,
-        "name": "N. Aké",
+        "name": "N. Ak\u00e9",
         "age": 29,
         "number": 6,
         "position": "Defender",
@@ -3281,7 +3281,7 @@
     },
     {
         "id": 2291,
-        "name": "M. Kovačić",
+        "name": "M. Kova\u010di\u0107",
         "age": 30,
         "number": 8,
         "position": "Midfielder",
@@ -3313,7 +3313,7 @@
     },
     {
         "id": 633,
-        "name": "İ. Gündogan",
+        "name": "\u0130. G\u00fcndo\u011fan",
         "age": 34,
         "number": 19,
         "position": "Midfielder",
@@ -3393,7 +3393,7 @@
     },
     {
         "id": 266657,
-        "name": "Sávio",
+        "name": "S\u00e1vio",
         "age": 20,
         "number": 26,
         "position": "Attacker",
@@ -3473,7 +3473,7 @@
     },
     {
         "id": 46731,
-        "name": "P. Estupiñán",
+        "name": "P. Estupi\u00f1\u00e1n",
         "age": 26,
         "number": 30,
         "position": "Defender",
@@ -3561,7 +3561,7 @@
     },
     {
         "id": 1361,
-        "name": "F. Kadioglu",
+        "name": "F. Kad\u0131o\u011flu",
         "age": 25,
         "number": 24,
         "position": "Midfielder",
@@ -3609,7 +3609,7 @@
     },
     {
         "id": 10329,
-        "name": "João Pedro",
+        "name": "Jo\u00e3o Pedro",
         "age": 23,
         "number": 9,
         "position": "Attacker",
@@ -3713,7 +3713,7 @@
     },
     {
         "id": 67971,
-        "name": "M. Guéhi",
+        "name": "M. Gu\u00e9hi",
         "age": 24,
         "number": 6,
         "position": "Defender",
@@ -3721,7 +3721,7 @@
     },
     {
         "id": 13736,
-        "name": "D. Muñoz",
+        "name": "D. Mu\u00f1oz",
         "age": 28,
         "number": 12,
         "position": "Defender",
@@ -3817,7 +3817,7 @@
     },
     {
         "id": 3339,
-        "name": "C. Doucouré",
+        "name": "C. Doucour\u00e9",
         "age": 24,
         "number": 28,
         "position": "Midfielder",
@@ -3865,7 +3865,7 @@
     },
     {
         "id": 311157,
-        "name": "Matheus França",
+        "name": "Matheus Fran\u00e7a",
         "age": 20,
         "number": 11,
         "position": "Attacker",
@@ -4001,7 +4001,7 @@
     },
     {
         "id": 30407,
-        "name": "C. Nørgaard",
+        "name": "C. N\u00f8rgaard",
         "age": 30,
         "number": 6,
         "position": "Midfielder",
@@ -4041,7 +4041,7 @@
     },
     {
         "id": 153066,
-        "name": "Fábio Carvalho",
+        "name": "F\u00e1bio Carvalho",
         "age": 22,
         "number": 14,
         "position": "Midfielder",
@@ -4145,7 +4145,7 @@
     },
     {
         "id": 616,
-        "name": "A. Muric",
+        "name": "A. Muri\u0107",
         "age": 26,
         "number": 1,
         "position": "Goalkeeper",
@@ -4425,7 +4425,7 @@
     },
     {
         "id": 47547,
-        "name": "Álex Moreno",
+        "name": "\u00c1lex Moreno",
         "age": 31,
         "number": 19,
         "position": "Defender",
@@ -4441,7 +4441,7 @@
     },
     {
         "id": 2817,
-        "name": "N. Milenković",
+        "name": "N. Milenkovi\u0107",
         "age": 27,
         "number": 31,
         "position": "Defender",
@@ -4465,7 +4465,7 @@
     },
     {
         "id": 22149,
-        "name": "I. Sangaré",
+        "name": "I. Sangar\u00e9",
         "age": 27,
         "number": 6,
         "position": "Midfielder",
@@ -4489,7 +4489,7 @@
     },
     {
         "id": 6056,
-        "name": "N. Domínguez",
+        "name": "N. Dom\u00ednguez",
         "age": 26,
         "number": 16,
         "position": "Midfielder",
@@ -4601,7 +4601,7 @@
     },
     {
         "id": 19599,
-        "name": "E. Martínez",
+        "name": "E. Mart\u00ednez",
         "age": 32,
         "number": 23,
         "position": "Goalkeeper",
@@ -4673,7 +4673,7 @@
     },
     {
         "id": 342320,
-        "name": "K. Nedeljković",
+        "name": "K. Nedeljkovi\u0107",
         "age": 19,
         "number": 20,
         "position": "Defender",
@@ -4761,7 +4761,7 @@
     },
     {
         "id": 19071,
-        "name": "E. Buendía",
+        "name": "E. Buend\u00eda",
         "age": 28,
         "number": 10,
         "position": "Midfielder",
@@ -4817,7 +4817,7 @@
     },
     {
         "id": 13489,
-        "name": "J. Durán",
+        "name": "J. Dur\u00e1n",
         "age": 21,
         "number": 9,
         "position": "Attacker",

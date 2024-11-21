@@ -1,0 +1,507 @@
+[
+    {
+        "id": 1,
+        "name": "Fábio Ferreira Vieira",
+        "news": "has joined portuguese side fc porto on loan for the 2024/25 season"
+    },
+    {
+        "id": 5,
+        "name": "Karl Hein",
+        "news": "loaned to real valladolid"
+    },
+    {
+        "id": 30,
+        "name": "Enzo Barrenechea",
+        "news": "loaned to valencia cf"
+    },
+    {
+        "id": 33,
+        "name": "Leander Dendoncker",
+        "news": "on loan to anderlecht for the rest of the season"
+    },
+    {
+        "id": 34,
+        "name": "Moussa Diaby",
+        "news": "permanent transfer to al ittihad"
+    },
+    {
+        "id": 37,
+        "name": "Lewis Dobbin",
+        "news": "permanent transfer to west bromwich albion"
+    },
+    {
+        "id": 41,
+        "name": "Samuel Iling-Junior",
+        "news": "season long loan to bologna"
+    },
+    {
+        "id": 55,
+        "name": "Viljami Sinisalo",
+        "news": "permanent transfer to celtic"
+    },
+    {
+        "id": 56,
+        "name": "Lino da Cruz Sousa",
+        "news": "loaned to  bristol rovers"
+    },
+    {
+        "id": 61,
+        "name": "Jaidon Anthony",
+        "news": "season long loan to burnley"
+    },
+    {
+        "id": 66,
+        "name": "Romain Faivre",
+        "news": "loaned to brest"
+    },
+    {
+        "id": 67,
+        "name": "Hamed Traorè",
+        "news": "season long loan to a.j.auxerre"
+    },
+    {
+        "id": 69,
+        "name": "Daniel Jebbison",
+        "news": "loaned to watford"
+    },
+    {
+        "id": 72,
+        "name": "Chris Mepham",
+        "news": "on loan to sunderland for the season"
+    },
+    {
+        "id": 75,
+        "name": "Alex Paulsen",
+        "news": "loaned to auckland fc"
+    },
+    {
+        "id": 102,
+        "name": "Frank Onyeka",
+        "news": "loaned to fc augsburg"
+    },
+    {
+        "id": 103,
+        "name": "Myles Peart-Harris",
+        "news": "loaned to swansea city"
+    },
+    {
+        "id": 108,
+        "name": "Ivan Toney",
+        "news": "transferred to al-ahli"
+    },
+    {
+        "id": 114,
+        "name": "Benicio Baker-Boaitey",
+        "news": "loaned to port vale"
+    },
+    {
+        "id": 116,
+        "name": "Valentín Barco",
+        "news": "loaned to sevilla"
+    },
+    {
+        "id": 118,
+        "name": "Amario Cozier-Duberry",
+        "news": "loaned to blackburn rovers"
+    },
+    {
+        "id": 119,
+        "name": "Mahmoud Dahoud",
+        "news": "transferred to eintracht frankfurt"
+    },
+    {
+        "id": 124,
+        "name": "Billy Gilmour",
+        "news": "transferred to napoli"
+    },
+    {
+        "id": 125,
+        "name": "Pascal Groß",
+        "news": "permanent transfer to borussia dortmund"
+    },
+    {
+        "id": 127,
+        "name": "Ibrahim Osman",
+        "news": "loaned to feyenoord"
+    },
+    {
+        "id": 130,
+        "name": "Kacper Kozłowski",
+        "news": "permanent transfer to gaziantep fk"
+    },
+    {
+        "id": 133,
+        "name": "Adrian Mazilu",
+        "news": "has joined vitesse arnhem on loan for the rest of the season"
+    },
+    {
+        "id": 139,
+        "name": "Odeluga Offiah",
+        "news": "loaned to blackpool"
+    },
+    {
+        "id": 141,
+        "name": "Jeremy Sarmiento Morante",
+        "news": "loaned to burnley"
+    },
+    {
+        "id": 143,
+        "name": "Deniz Undav",
+        "news": "transferred to stuttgart"
+    },
+    {
+        "id": 601,
+        "name": "Andrew Moran",
+        "news": "loaned to stoke city"
+    },
+    {
+        "id": 615,
+        "name": "Carl Rushworth",
+        "news": "loaned to hull city"
+    },
+    {
+        "id": 150,
+        "name": "Andrey Nascimento dos Santos",
+        "news": "has joined strasbourg on a season-long loan"
+    },
+    {
+        "id": 151,
+        "name": "Ângelo Gabriel Borges Damaceno",
+        "news": "transferred to al-nassr"
+    },
+    {
+        "id": 164,
+        "name": "David Datro Fofana",
+        "news": "transferred to aek athens"
+    },
+    {
+        "id": 169,
+        "name": "Conor Gallagher",
+        "news": "transferred to atletico madrid"
+    },
+    {
+        "id": 175,
+        "name": "Romelu Lukaku Bolingoli",
+        "news": "permanent transfer to napoli"
+    },
+    {
+        "id": 183,
+        "name": "Đorđe Petrović",
+        "news": "loaned to strasbourg"
+    },
+    {
+        "id": 575,
+        "name": "Caleb Wiley",
+        "news": "loaned to strasbourg"
+    },
+    {
+        "id": 190,
+        "name": "Naouirou Ahamada",
+        "news": "loaned to rennes"
+    },
+    {
+        "id": 197,
+        "name": "Malcolm Ebiowei",
+        "news": "season long loan to oxford united"
+    },
+    {
+        "id": 212,
+        "name": "David Ozoh",
+        "news": "season long loan to derby county"
+    },
+    {
+        "id": 213,
+        "name": "Jesurun Rak-Sakyi",
+        "news": "loaned to sheffield united"
+    },
+    {
+        "id": 225,
+        "name": "Mason Holgate",
+        "news": "loaned to west bromwich albion"
+    },
+    {
+        "id": 229,
+        "name": "Neal Maupay",
+        "news": "transferred to marseille"
+    },
+    {
+        "id": 614,
+        "name": "Jenson Metcalfe",
+        "news": "season long loan to chesterfield"
+    },
+    {
+        "id": 246,
+        "name": "Luke Harris",
+        "news": "season long loan to birmingham city"
+    },
+    {
+        "id": 250,
+        "name": "Kevin Mbabu",
+        "news": "transferred to fc midtjylland"
+    },
+    {
+        "id": 253,
+        "name": "Tim Ream",
+        "news": "permanent transfer to charlotte fc"
+    },
+    {
+        "id": 256,
+        "name": "Jay Stansfield",
+        "news": "transferred to birmingham city"
+    },
+    {
+        "id": 261,
+        "name": "Elkan Baggott",
+        "news": "season long loan to blackpool"
+    },
+    {
+        "id": 269,
+        "name": "George Edmundson",
+        "news": "loaned to middlesbrough"
+    },
+    {
+        "id": 271,
+        "name": "Marcus Myers-Harness",
+        "news": "loaned to derby county"
+    },
+    {
+        "id": 273,
+        "name": "Cameron Humphreys",
+        "news": "loaned to wycombe"
+    },
+    {
+        "id": 279,
+        "name": "Corrie Ndaba",
+        "news": "permanent transfer to kilmarnock"
+    },
+    {
+        "id": 286,
+        "name": "Tom Cannon",
+        "news": "loaned to stoke city"
+    },
+    {
+        "id": 297,
+        "name": "Wanya Marçal-Madivádua",
+        "news": "loaned to de graafschap"
+    },
+    {
+        "id": 303,
+        "name": "Harry Souttar",
+        "news": "season long loan to sheffield united"
+    },
+    {
+        "id": 616,
+        "name": "Ben Nelson",
+        "news": "loaned to oxford united"
+    },
+    {
+        "id": 312,
+        "name": "Stefan Bajčetić Maquieira",
+        "news": "loaned to rb salzburg"
+    },
+    {
+        "id": 315,
+        "name": "Bobby Clark",
+        "news": "transferred to rb salzburg"
+    },
+    {
+        "id": 318,
+        "name": "Ben Doak",
+        "news": "loaned to middlesbrough"
+    },
+    {
+        "id": 332,
+        "name": "Nathaniel Phillips",
+        "news": "loaned to derby county"
+    },
+    {
+        "id": 334,
+        "name": "Rhys Williams",
+        "news": "loaned to morecambe"
+    },
+    {
+        "id": 352,
+        "name": "Julián Álvarez",
+        "news": "transferred to atletico madrid"
+    },
+    {
+        "id": 353,
+        "name": "João Cavaco Cancelo",
+        "news": "permanent transfer to saudi club al-hilal"
+    },
+    {
+        "id": 626,
+        "name": "Issa Kaboré",
+        "news": "loaned to benfica"
+    },
+    {
+        "id": 381,
+        "name": "Scott McTominay",
+        "news": "transferred to napoli"
+    },
+    {
+        "id": 384,
+        "name": "Facundo Pellistri Rebollo",
+        "news": "transferred to panathinaikos"
+    },
+    {
+        "id": 408,
+        "name": "Jamal Lewis",
+        "news": "loaned to  sao paulo"
+    },
+    {
+        "id": 419,
+        "name": "Joe White",
+        "news": "loaned to mk dons"
+    },
+    {
+        "id": 574,
+        "name": "Miodrag Pivaš",
+        "news": "loaned to willem ii"
+    },
+    {
+        "id": 426,
+        "name": "Josh Bowler",
+        "news": "loaned to  preston north end"
+    },
+    {
+        "id": 435,
+        "name": "Alex Mighten",
+        "news": "season long loan to port vale"
+    },
+    {
+        "id": 438,
+        "name": "Omar Richards",
+        "news": "loaned to rio ave"
+    },
+    {
+        "id": 439,
+        "name": "Lewis O'Brien",
+        "news": "on loan to los angeles football club for the rest of the season"
+    },
+    {
+        "id": 441,
+        "name": "Jonathan Panzo",
+        "news": "on a season long loan to rio ave"
+    },
+    {
+        "id": 446,
+        "name": "Hwang Ui-jo",
+        "news": "transferred to alanyaspor"
+    },
+    {
+        "id": 448,
+        "name": "Joe Worrall",
+        "news": "transferred to burnley"
+    },
+    {
+        "id": 450,
+        "name": "Carlos Alcaraz Durán",
+        "news": "permanent transfer to flamengo"
+    },
+    {
+        "id": 458,
+        "name": "Shea Charles",
+        "news": "has joined sheffield wednesday on a season-long loan"
+    },
+    {
+        "id": 459,
+        "name": "Samuel Edozie",
+        "news": "loaned to anderlecht"
+    },
+    {
+        "id": 465,
+        "name": "Mateusz Lis",
+        "news": "transferred to göztepe"
+    },
+    {
+        "id": 468,
+        "name": "Sékou Mara",
+        "news": "transferred to strasbourg"
+    },
+    {
+        "id": 478,
+        "name": "Ashley Phillips",
+        "news": "loaned to stoke city"
+    },
+    {
+        "id": 483,
+        "name": "Bryan Gil Salvatierra",
+        "news": "on loan to girona for the season"
+    },
+    {
+        "id": 485,
+        "name": "Alfie Devine",
+        "news": "loaned to westerlo"
+    },
+    {
+        "id": 490,
+        "name": "Pierre-Emile Højbjerg",
+        "news": "on loan to marseille for the season"
+    },
+    {
+        "id": 493,
+        "name": "Giovani Lo Celso",
+        "news": "transferred to real betis"
+    },
+    {
+        "id": 500,
+        "name": "Dane Scarlett",
+        "news": "loaned to oxford united"
+    },
+    {
+        "id": 502,
+        "name": "Manor Solomon",
+        "news": "season long loan to leeds united"
+    },
+    {
+        "id": 507,
+        "name": "Alejo Véliz",
+        "news": "loaned to espanyol"
+    },
+    {
+        "id": 519,
+        "name": "George Earthy",
+        "news": "loaned to bristol city"
+    },
+    {
+        "id": 529,
+        "name": "Nayef Aguerd",
+        "news": "on loan to real sociedad for the season"
+    },
+    {
+        "id": 532,
+        "name": "Kurt Zouma",
+        "news": "on loan to al-orobah for the rest of the season"
+    },
+    {
+        "id": 537,
+        "name": "Francisco Jorge Tomás Oliveira",
+        "news": "season long loan to rcd mallorca"
+    },
+    {
+        "id": 545,
+        "name": "Fábio Silva",
+        "news": "season long loan to las palmas"
+    },
+    {
+        "id": 546,
+        "name": "Nathan Fraser",
+        "news": "loaned to zulte waregem"
+    },
+    {
+        "id": 549,
+        "name": "Hugo Bueno López",
+        "news": "loaned to feyenoord"
+    },
+    {
+        "id": 552,
+        "name": "Ki-Jana Hoever",
+        "news": "loaned to auxerre"
+    },
+    {
+        "id": 562,
+        "name": "Daniel Castelo Podence",
+        "news": "transferred to al-shabab"
+    }
+]

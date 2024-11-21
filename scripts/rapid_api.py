@@ -54,5 +54,5 @@ def fetch_and_save_data(endpoint, querystring):
 # man city team id 50
 # haaland player id 1100
 # PL id 39
-#strat id 158698 
+#strat id 2997 
 fetch_and_save_data("fixtures/statistics", {"fixture":"1208124"})

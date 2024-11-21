@@ -80,11 +80,11 @@ def parse_players_and_fetch_stats(players_json_path, output_dir, season, limit, 
     print("Processing completed.")
 
 # Example Usage
-players_json_path = "C:\\Users\\outhm\\Documents\\projects\\B-try\\static_data\\players.json"  # Path to your JSON file containing player data
+players_json_path = "C:\\Users\\outhm\\Documents\\projects\\B-try\\static_data\\players_backup.json"  # Path to your JSON file containing player data
 output_dir = r"D:\\b_try\\players"        # Directory to save player statistics
 season = "2024"
 league = "39"# Specify the season
 limit = 30                              # Number of players to process in one run
-start_from_id = 388777                    # Start from the beginning, or specify a player ID
+start_from_id = 156428                    # Start from the beginning, or specify a player ID
 
 parse_players_and_fetch_stats(players_json_path, output_dir, season, limit, start_from_id)
