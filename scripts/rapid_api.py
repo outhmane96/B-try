@@ -21,7 +21,7 @@ def fetch_and_save_data(endpoint, querystring):
     # Define the path for the JSON file
     #file_path = "football_data.json"
     
-    file_path = "players_data.json"
+    file_path = "players_fixture_data.json"
 
     # Check if the file exists and load existing data
     if os.path.exists(file_path):
@@ -54,5 +54,5 @@ def fetch_and_save_data(endpoint, querystring):
 # man city team id 50
 # haaland player id 1100
 # PL id 39
-#strat id 2997 
-fetch_and_save_data("fixtures/statistics", {"fixture":"1208124"})
+#strat id 301771 
+fetch_and_save_data("fixtures/players", {"fixture":"1208124"})

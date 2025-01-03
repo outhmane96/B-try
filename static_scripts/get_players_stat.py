@@ -85,6 +85,6 @@ output_dir = r"D:\\b_try\\players"        # Directory to save player statistics
 season = "2024"
 league = "39"# Specify the season
 limit = 30                              # Number of players to process in one run
-start_from_id = 156428                    # Start from the beginning, or specify a player ID
+start_from_id = 312260                   # Start from the beginning, or specify a player ID
 
 parse_players_and_fetch_stats(players_json_path, output_dir, season, limit, start_from_id)

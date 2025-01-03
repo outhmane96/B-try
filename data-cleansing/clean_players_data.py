@@ -32,9 +32,7 @@ def clean_player_folder():
                 
                 # Check the criteria for removal
                 if (
-                    player_stats["rating"] is None
-                    and player_stats["appearences"] < 10
-                    and player_stats["minutes"] < 100
+                    player_stats["appearences"] == None or player_stats["appearences"] == 0 
                 ):
                     # Remove the file and log the player
                     # os.remove(filepath)
