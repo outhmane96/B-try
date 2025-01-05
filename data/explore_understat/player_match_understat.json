@@ -1,0 +1,24 @@
+[
+    {
+        "goals": "1",
+        "shots": "7",
+        "xG": "1.6821272373199463",
+        "time": "90",
+        "position": "AMR",
+        "h_team": "West Ham",
+        "a_team": "Liverpool",
+        "h_goals": "0",
+        "a_goals": "5",
+        "date": "2024-12-29",
+        "id": "26791",
+        "season": "2024",
+        "roster_id": "696818",
+        "xA": "1.1356377601623535",
+        "assists": "2",
+        "key_passes": "4",
+        "npg": "1",
+        "npxG": "1.6821272373199463",
+        "xGChain": "2.3007888793945312",
+        "xGBuildup": "0.05097271129488945"
+    }
+]
