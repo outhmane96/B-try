@@ -2,5 +2,6 @@
 
 from .base_api import BaseAPI
 from .rapid_api import RapidAPI
+from .fantasy_api import FantasyAPI
 
-__all__ = ['BaseAPI', 'RapidAPI']
+__all__ = ['BaseAPI', 'RapidAPI', 'FantasyAPI']

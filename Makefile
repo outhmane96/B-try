@@ -21,3 +21,13 @@ clean:
 	find . -type d -name "build" -exec rm -rf {} +
 	find . -type f -name "*.pyc" -delete
 	find . -type f -name "*.zip" -delete
+
+# Create a ZIP package for deployment
+zip:
+	mkdir package
+	pip install boto3 loguru --target package/
+	pip install --target package/ . --upgrade
+	cp main.py package/
+	xcopy src\ package\src\ /s /e /y
+	cd package && powershell -Command "Compress-Archive -Path * -DestinationPath ../lambda-deployment.zip"
+	rmdir /s /q package
