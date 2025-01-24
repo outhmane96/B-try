@@ -17,13 +17,17 @@ def lambda_handler(event, context):
         logger.info(f"Fetched {len(players)} players from the Fantasy API.")
 
         # Insert each player into DynamoDB
-        for player in players:
-            # Insert the full player JSON into DynamoDB
-            dynamo_handler.insert_document(player)
-            logger.info(f"Inserted player {player['web_name']} (ID: {player['id']}) into DynamoDB.")
+        # for player in players:
+        #     # Insert the full player JSON into DynamoDB
+        #     dynamo_handler.insert_document(player)
+        #     logger.info(f"Inserted player {player['web_name']} (ID: {player['id']}) into DynamoDB.")
+            
+        dynamo_handler.insert_documents_batch(players)
+        
 
     except Exception as e:
         logger.error(f"An error occurred: {e}")
         raise
+    return {"statusCode": 200, "body": f"Successfully processed {len(players)} players."}
 
-    return {"statusCode": 200, "body": "All player data successfully inserted into DynamoDB."}
+    #return {"statusCode": 200, "body": "All player data successfully inserted into DynamoDB."}

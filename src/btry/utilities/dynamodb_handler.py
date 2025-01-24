@@ -1,5 +1,6 @@
 import boto3
 from botocore.exceptions import ClientError
+from decimal import Decimal
 from loguru import logger
 
 
@@ -13,6 +14,19 @@ class DynamoDBHandler:
         self.dynamodb = boto3.resource("dynamodb")
         self.table = self.dynamodb.Table(self.table_name)
 
+    def _convert_floats_to_decimals(self, obj):
+        """
+        Recursively convert floats to Decimal in a nested object (dict or list).
+        """
+        if isinstance(obj, list):
+            return [self._convert_floats_to_decimals(item) for item in obj]
+        elif isinstance(obj, dict):
+            return {k: self._convert_floats_to_decimals(v) for k, v in obj.items()}
+        elif isinstance(obj, float):
+            return Decimal(str(obj))  # Convert float to Decimal
+        else:
+            return obj
+
     def insert_document(self, document):
         """
         Insert a single document into the DynamoDB table.
@@ -20,12 +34,38 @@ class DynamoDBHandler:
         :return: The response from DynamoDB.
         """
         try:
+            # Convert id to string if it exists and is a number
+            if "id" in document and isinstance(document["id"], (int, float)):
+                document["id"] = str(document["id"])
+            document = self._convert_floats_to_decimals(document)
             response = self.table.put_item(Item=document)
             logger.info(f"Document inserted: {document}")
             return response
         except ClientError as e:
             logger.error(f"Failed to insert document: {e}")
             raise
+        
+    def insert_documents_batch(self, documents):
+        """
+        Insert multiple documents into the DynamoDB table using batch_writer.
+        :param documents: A list of documents to insert.
+        """
+        try:
+            with self.table.batch_writer() as batch:
+                for document in documents:
+                    # Convert id to string if it exists and is a number
+                    if "id" in document and isinstance(document["id"], (int, float)):
+                        document["id"] = str(document["id"])
+                    # Convert floats to Decimal
+                    document = self._convert_floats_to_decimals(document)
+                    # Add document to batch
+                    batch.put_item(Item=document)
+            logger.info(f"Batch inserted {len(documents)} documents.")
+        except ClientError as e:
+            logger.error(f"Failed to insert batch: {e}")
+            raise
+
+
 
     def find_documents(self, query=None):
         """
